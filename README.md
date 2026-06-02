@@ -1,4 +1,4 @@
-This repository contains code and data for manuscript titled "Growth rate dependent DNA methylation patterns along bacterial chromosomes", preprint available at - link. 
+This repository contains code and data for manuscript titled "Growth rate dependent DNA methylation patterns along bacterial chromosomes", preprint available at - https://doi.org/10.64898/2026.05.23.720832. 
 
 In this work, we analyze the methylome of diverse bacteria species under different environmental regimes, and ask how global methylation patterns change with changing environments. We use Oxford Nanopore long-read sequencing to quantify the methylome. The raw reads from nanopore data (in a POD5 format) are processed using dorado. The bash script to do that is named dorado_gpu.sh, which takes a POD5 file as an input and outputs a modified bam file containing all reads and predicted methylation states. Nvidia RTX A6000 GPUs were used to run this script. 
 
